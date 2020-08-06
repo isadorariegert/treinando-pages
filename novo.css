@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap');
+
+/* ================================  geral ==================================== */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1vw;
+    color: #FFFFFF;
+    background-color: #eae1f266;
+}
+
+
+
+/* ========================= estilo do header header =========================== */
+.navbar {
+    font-size: 2vw;
+    background-color: black;
+}
+.nav-link {
+    font-size: 1vw;
+}
+
+.div-header {
+    background: #412856;
+    height: auto; 
+    padding: 2vw;
+}
+
+    
+.titulo-header {
+    font-size: 4vw;
+    font-weight: 400;
+}
+/*
+    @media (min-width: 560px)  {.titulo-header {font-size: 4.8vw;}}
+    @media (min-width: 1024px) {.titulo-header {font-size: 60px;}}
+    @media (min-width: 1440px) {.titulo-header {font-size: 80px;}}
+*/
+.imagem-header {
+    width: 100%;
+}
+
+/* ========================= estilo conteudo central ============================ */
+
+.container-central {
+    background: linear-gradient(180deg, #7E649F 0% , #130D36 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 4%;
+}
+
+.texto-inicial {
+    font-size: 1.5vw; 
+    font-weight: 300;
+}
+/*
+    @media (min-width: 560px) {.texto-inicial {font-size: 2.6vw; margin-top: -2%;}}
+    @media (min-width: 768px) {.texto-inicial {font-size: 22px;}}    
+    @media (min-width: 1024px) {.texto-inicial {font-size: 24px;line-height: 1.4;font-weight: 300;}}
+    @media (min-width: 1440px) {.texto-inicial {font-size: 26px; line-height: 26px;}}
+*/
+
+.botao-central {
+    width: 50vw;
+    font-size: 4vw;
+    border-radius: 6px;
+    background-color: #AD72DF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+    color: #FFFFFF;
+}
+    @media (min-width: 560px) {.botao-central {width: 40vw; font-size: 3vw;}}
+    @media (min-width: 768px) {.botao-central {width: 250px; font-size: 20px; margin-bottom: 30px;}}
+    @media (min-width: 1024px) {.botao-central {width: 320px; font-size: 25px;}}
+    @media (min-width: 1140px) {.botao-central {width: 368px; font-size: 30px;}}
+
+/* ============================ evento de estilo botao ============================ */
+        .botao-central:hover {
+            background-color: #130d36d0;
+            color: #FFFFFF;
+        }
+/* =============================================================================== */
+
+.card{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    align-items: center;
+    width: 70vw;
+    color: #130D36;
+}
+    @media (min-width: 768px)  {.card:hover {line-height: 30px;}}
+    @media (min-width: 1024px) {.card:hover {line-height: 35px;}}
+        
+/* =========================== evento de estilo card ============================ */
+        .card:hover{
+            background-color: rgba(0, 0, 0, 0.111);
+            border-radius: 30px;   
+            width: 80vw;
+            font-size: 5vw;
+        }
+/* ============================================================================== */
+
+.imagem-card {
+    width: 15vw; 
+    margin-top: 8%;
+}
+/*
+    @media (min-width: 560px)  {.imagem-card {width: 20vw;}}
+    @media (min-width: 768px)  {.imagem-card {width: 130px;}}
+    @media (min-width: 1440px) {.imagem-card {width: 152px;}}
+*/
+.texto1-card {
+    font-size: 2.5vw; 
+    margin-top: -5%;
+}
+
+    @media (min-width: 560px) {.texto1-card {font-size: 3vw; margin-top: -6%;}}   
+    @media (min-width: 768px) {.texto1-card {font-size: 3vw;}}
+    @media (min-width: 1024px){.texto1-card {font-size: 20px;}}
+    @media (min-width: 1440px){.texto1-card {font-size: 22px;}}
+
+.texto2-card {
+    font-size: 3vw; 
+    font-weight: bold;
+}
+    @media (min-width: 560px) {.texto2-card {font-size: 3.5vw; margin-top: -5%;}} 
+    @media (min-width: 768px) {.texto2-card {font-size: 2.6vw;}}
+    @media (min-width: 1024px){.texto2-card {font-size: 26px;}}
+    @media (min-width: 1440px){.texto2-card {font-size: 32px;}}
+
+.texto3-card, .texto4-card {
+    font-size: 3vw; 
+    margin-top: -4%;
+}
+
+    @media (min-width: 560px) {.texto3-card, .texto4-card {font-size: 2.5vw;}} 
+    @media (min-width: 768px)  {.texto3-card, .texto4-card {font-size: 1.7vw;}}
+    @media (min-width: 1024px) {.texto3-card, .texto4-card {font-size: 18px;}}
+    @media (min-width: 1440px) {.texto3-card, .texto4-card {font-size: 22px;}}
+
+
+/* =========================== estilo textos finais =========================== */
+
+.texto-central {
+    font-size: 4vw; 
+}
+
+.texto-central2 {
+    font-size: 4vw; 
+    font-weight: bold; 
+
+}/*
+    @media (min-width: 560px) {.texto-central2, .texto-central {font-size: 5vw;}}
+    @media (min-width: 768px){.texto-central2 {margin-bottom: 10%;}}
+    @media (min-width: 1024px){.texto-central2, .texto-central {font-size: 60px;}}
+*/
+.titulo-final{
+    font-size: 3vw;
+    line-height: 150%;
+    font-weight: 600;
+    padding-left: 5%;
+    margin-top: 2%;
+    color: #412856;
+}
+/*
+    @media(min-width: 560px){.titulo-final{font-size: 4vw; text-align: left; margin-top: 5%; display: block;}}
+    @media(min-width: 768px){.titulo-final{font-size: 30px; text-align: left; margin-top: 6%}}
+    @media (min-width: 1024px) {
+        .titulo-final{
+            font-size: 34px;
+            font-weight: bolder;
+            text-align: right;
+            margin-bottom: 5%;
+            margin-top: -3%;
+            margin-right: -3%;
+            padding: 5%;
+        }
+    } 
+    @media (min-width: 1440px) {
+        .titulo-final{
+            font-size: 42px;
+            font-weight: bolder;
+            text-align: right;
+            margin-bottom: 5%;
+            margin-top: -4%;
+            padding: 5%;
+        }
+    } 
+
+/* ================ linha vertical : apenas acima de 1024px ====================*/
+        .linha-vertical{
+            height: 110px;
+            margin-left: 8px;
+            border-left: 4px solid #412856;
+        }
+            @media(max-width: 1023px){.linha-vertical{height: 0;}}
+            @media (min-width: 1024px) {.linha-vertical{height: 17vw;}}
+/*          @media (min-width: 1140px) {.linha-vertical{height: 196px;}}  
+/* ============================================================================ */
+
+.texto-final {
+    font-size: 1.7vw;
+    text-align: left;
+    line-height:130%;
+    margin: 3% 0 4% 0;
+    color: #412856;
+}/*
+    @media(min-width: 560px){
+        .texto-final{
+            font-size: 2.6vw; 
+            font-weight: lighter;
+            text-align: justify;
+            padding: 0; 
+            margin-top: 4%;
+            margin-bottom: 2%;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .texto-final{
+            font-size: 16px;
+            line-height: 18px;
+            font-weight: lighter;
+            margin-bottom: 7%;
+            margin-top: 7%;
+            margin-left: 0;
+        }
+    } 
+    @media (min-width: 1024px) {
+        .texto-final{
+            font-size: 20px;
+            line-height: 22px;
+            font-weight: lighter;
+            margin-bottom: 5%;
+            margin-top: 2%;
+            margin-left: 4%;
+        }
+    } 
+    @media (min-width: 1440px) {
+        .texto-final{
+            font-size: 26px;
+            line-height: 26px;
+            font-weight: lighter;
+            margin-bottom: 5%;
+            margin-top: 2%;
+            margin-left: 4%;
+        }
+    } 
+/* ================================ footer ==================================== */
+
+.rodape {
+    height: auto; 
+    background-color: black;
+}/*
+    @media(min-width: 768px){.rodape{height: 100px;}}
+    @media(min-width: 1024px){.rodape{height: 150px;}}
+    @media(min-width: 1140px){.rodape{height: 215px;}}
+*/
+.texto-rodape {
+    font-size: 3vw; 
+    margin: auto; 
+    padding: 3vw;
+}/*
+    @media(min-width: 1024px){.texto-rodape{font-size: 26px;}}
+  
+    
+/* ======================= mediaquery para tela EG - 4k ======================= 
+
+@media(min-width: 1600px){
+    .texto-inicial {font-size: 2.5vw; line-height: 100%;}
+    .botao-central {width: 30vw;}
+    .card-img-top {width: 12vw;}
+    .texto1-card, .texto2-card, .texto3-card, .texto4-card {line-height: 2.3vw; font-size: 1.3vw;}
+    .texto-central, .texto-central2 {font-size: 4vw; line-height: 7vw;}
+    .titulo-final {font-size: 3vw;}
+    .linha-vertical {height: 16vw;}
+    .texto-final {font-size: 2vw; line-height: 2.1vw;}
+    .rodape {height: auto;} 
+    .texto-rodape {font-size: 2vw; margin: auto; padding: 5vw;}
+}
+
+
+/* ============================ BREAKPOINTS ===============================:
+560px - telas de celulares acessados na horizontal
+768px - telas de tablet
+> 1024px - telas de notebooks P/M
+> 1600px - telas de notebooks G/GG
+=================================== FIM =================================== */
